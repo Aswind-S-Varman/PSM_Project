@@ -9,6 +9,14 @@ public class UIManager : MonoBehaviour
     public GameObject Weapon;
     public GameObject PauseMenu;
 
+    public AudioClip gameOverClip;
+    public AudioSource audioSource;
+
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
     private void OnEnable()
     {
         PlayerHealth.OnPlayerDeath += EnableGameOverMenu;
@@ -22,6 +30,9 @@ public class UIManager : MonoBehaviour
 
     public void EnableGameOverMenu()
     {
+
+        AudioSource.PlayClipAtPoint(gameOverClip, transform.position);
+       
         FindObjectOfType<PlayerMovement>().DisableMovement();
         Cursor.lockState = CursorLockMode.None;
         Time.timeScale = 0f;
