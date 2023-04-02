@@ -12,7 +12,7 @@ public class UIManager : MonoBehaviour
     public AudioClip gameOverClip;
     public AudioSource audioSource;
 
-    private void Start()
+private void Start()
     {
         audioSource = GetComponent<AudioSource>();
     }
@@ -26,13 +26,12 @@ public class UIManager : MonoBehaviour
     private void OnDisable()
     {
         PlayerHealth.OnPlayerDeath -= EnableGameOverMenu;
+        EnemyController.OnPlayerDeath -= EnableGameOverMenu;
     }
 
     public void EnableGameOverMenu()
     {
-
         AudioSource.PlayClipAtPoint(gameOverClip, transform.position);
-       
         FindObjectOfType<PlayerMovement>().DisableMovement();
         Cursor.lockState = CursorLockMode.None;
         Time.timeScale = 0f;
@@ -47,6 +46,7 @@ public class UIManager : MonoBehaviour
     {
         Debug.Log("Restart Level");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Time.timeScale = 1f;
     }
 
     public void MainMenu()
