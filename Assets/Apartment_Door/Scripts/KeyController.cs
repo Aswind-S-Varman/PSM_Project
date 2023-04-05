@@ -12,6 +12,8 @@ public class KeyController : MonoBehaviour
     public DoorController DC;
     public GameObject keyObject;            // Disable key object
 
+    public AudioClip pickupKey;
+
 
     /// <summary>
     /// Incase user forgets to uncheck isTrigger in box collider
@@ -28,6 +30,8 @@ public class KeyController : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            AudioSource audioSource = GetComponent<AudioSource>();
+            audioSource.PlayOneShot(pickupKey);
             DC.gotKey = true;
             txtToDisplay.GetComponent<TMP_Text>().text = "Key Acquired";
             txtToDisplay.SetActive(true);
