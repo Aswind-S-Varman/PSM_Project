@@ -55,7 +55,7 @@ public class PauseMenu : MonoBehaviour
     {
         GameIsPaused = false;
         Time.timeScale = 1f;
-        //SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("StartMenu");
         Debug.Log("Loading Menu");
 
         Weapon.SetActive(false);

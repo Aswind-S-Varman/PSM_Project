@@ -12,7 +12,7 @@ public class KeyController : MonoBehaviour
     public DoorController DC;
     public GameObject keyObject;            // Disable key object
 
-    public AudioClip pickupKey;
+    public AudioClip keySound;
 
 
     /// <summary>
@@ -30,8 +30,7 @@ public class KeyController : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            AudioSource audioSource = GetComponent<AudioSource>();
-            audioSource.PlayOneShot(pickupKey);
+            AudioSource.PlayClipAtPoint(keySound, transform.position);
             DC.gotKey = true;
             txtToDisplay.GetComponent<TMP_Text>().text = "Key Acquired";
             txtToDisplay.SetActive(true);

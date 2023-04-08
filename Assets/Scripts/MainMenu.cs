@@ -7,16 +7,21 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("EasyLevel");
     }
 
     public void ChooseLevels()
     {
-        // SceneManager.LoadScene("FirstLevel");
+        SceneManager.LoadScene("SelectLevel");
     }
 
     public void QuitQame()
     {
         Application.Quit();
     }
+    public void HowToPlay()
+    {
+        SceneManager.LoadScene("HowToPlay");
+    }
+
 }
