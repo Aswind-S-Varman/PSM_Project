@@ -39,51 +39,51 @@ public class QuestionGenerate : MonoBehaviour
 
                 if (randomNumber == 1)
                 {
-                    QuestionDisplay.newQuestion = "What is the common cold caused by?";
-                    QuestionDisplay.newA = "A. Bacteria";
-                    QuestionDisplay.newB = "B. Fungi";
-                    QuestionDisplay.newC = "C. Viruses";
-                    QuestionDisplay.newD = "D. Vaccines";
+                    QuestionDisplay.newQuestion = "What is the recommended duration of time for washing your hands?";
+                    QuestionDisplay.newA = "A. 5 seconds";
+                    QuestionDisplay.newB = "B. 10 seconds";
+                    QuestionDisplay.newC = "C. 20 seconds";
+                    QuestionDisplay.newD = "D. 30 seconds";
                     actualAnswer = "C";
                 }
 
                 if (randomNumber == 2)
                 {
-                    QuestionDisplay.newQuestion = "Which of the following is a common symptom of influenza (flu)?";
-                    QuestionDisplay.newA = "A. Sore throat";
-                    QuestionDisplay.newB = "B. Loss of taste or smell";
-                    QuestionDisplay.newC = "C. Skin rash";
-                    QuestionDisplay.newD = "D. Coughing";
-                    actualAnswer = "A";
+                    QuestionDisplay.newQuestion = "Which of the following is NOT an effective sanitizer against viruses?";
+                    QuestionDisplay.newA = "A. Alcohol-based sanitizer";
+                    QuestionDisplay.newB = "B. Chlorine-based sanitizer";
+                    QuestionDisplay.newC = "C. Soap and Water";
+                    QuestionDisplay.newD = "D. Vinegar-based sanitizer";
+                    actualAnswer = "C";
                 }
 
                 if (randomNumber == 3)
                 {
-                    QuestionDisplay.newQuestion = "What is NOT a symptom of COVID-19?";
-                    QuestionDisplay.newA = "A. Difficulty breathing";
-                    QuestionDisplay.newB = "B. Loss of taste or smell";
-                    QuestionDisplay.newC = "C. Coughing";
-                    QuestionDisplay.newD = "D. Sneezing";
+                    QuestionDisplay.newQuestion = "Which of the following is an effective way to cover your cough or sneeze?";
+                    QuestionDisplay.newA = "A. Using your hand";
+                    QuestionDisplay.newB = "B. Covering nose";
+                    QuestionDisplay.newC = "C. Using your shirt";
+                    QuestionDisplay.newD = "D. Using your elbow";
                     actualAnswer = "D";
                 }
 
                 if (randomNumber == 4)
                 {
-                    QuestionDisplay.newQuestion = "Staying apart from other people when you have been exposed to the coronavirus is called?";
-                    QuestionDisplay.newA = "A. Physical distancing";
-                    QuestionDisplay.newB = "B. Quarantine";
-                    QuestionDisplay.newC = "C. Isolation";
-                    QuestionDisplay.newD = "D. Social distancing";
-                    actualAnswer = "C";
+                    QuestionDisplay.newQuestion = "How often should you sanitize high-touch surfaces such as doorknobs, light switches, and countertops?";
+                    QuestionDisplay.newA = "A. Once a day";
+                    QuestionDisplay.newB = "B. Twice a week";
+                    QuestionDisplay.newC = "C. Once every two weeks";
+                    QuestionDisplay.newD = "D. Once a month";
+                    actualAnswer = "A";
                 }
 
                 if (randomNumber == 5)
                 {
-                    QuestionDisplay.newQuestion = "The best and most accurate way to diagnose Covid-19 is";
-                    QuestionDisplay.newA = "A. Identifying symptoms";
-                    QuestionDisplay.newB = "B. PCR-based Test";
-                    QuestionDisplay.newC = "C. Saliva test";
-                    QuestionDisplay.newD = "D. None of the above";
+                    QuestionDisplay.newQuestion = "Which of the following surfaces is most likely to harbor viruses?";
+                    QuestionDisplay.newA = "A. Wood";
+                    QuestionDisplay.newB = "B. Plastic";
+                    QuestionDisplay.newC = "C. Metal";
+                    QuestionDisplay.newD = "D. Glass";
                     actualAnswer = "B";
                 }
 

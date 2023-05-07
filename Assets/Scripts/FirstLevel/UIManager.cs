@@ -52,6 +52,6 @@ private void Start()
     public void MainMenu()
     {
         Debug.Log("Main Menu");
-        //SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("StartMenu");
     }
 }

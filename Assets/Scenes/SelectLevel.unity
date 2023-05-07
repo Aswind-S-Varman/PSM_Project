@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: HARD
+  m_text: Vaccinations
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9391a61cbaa4f2049a55be3908018c47, type: 2}
   m_sharedMaterial: {fileID: -3097899869562768545, guid: 9391a61cbaa4f2049a55be3908018c47, type: 2}
@@ -449,7 +449,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 528423d0d350a424c911c271a0a72d53, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d21395a043b7bc843be0d42b685bd418, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -852,8 +852,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -245, y: -144}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -307.136, y: -139.64462}
+  m_SizeDelta: {x: 284.272, y: 62.8044}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &787263693
 MonoBehaviour:
@@ -1142,7 +1142,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: MEDIUM
+  m_text: Mental Health
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9391a61cbaa4f2049a55be3908018c47, type: 2}
   m_sharedMaterial: {fileID: -3097899869562768545, guid: 9391a61cbaa4f2049a55be3908018c47, type: 2}
@@ -1277,7 +1277,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: EASY
+  m_text: Sanitation & Hygiene
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9391a61cbaa4f2049a55be3908018c47, type: 2}
   m_sharedMaterial: {fileID: -3097899869562768545, guid: 9391a61cbaa4f2049a55be3908018c47, type: 2}
@@ -1392,8 +1392,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 245, y: -138}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 348.684, y: -136.5}
+  m_SizeDelta: {x: 251.0992, y: 56.524}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1294580184
 MonoBehaviour:
@@ -1547,7 +1547,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 02034270b24bf9c4691304f06c7684b1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 918e68432feb13d46b4fffda5065f93c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1603,8 +1603,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -141}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 31, y: -136.5018}
+  m_SizeDelta: {x: 275.6213, y: 56.5215}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2131895233
 MonoBehaviour:
@@ -1758,7 +1758,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 174c01d7fe9077a4bb9424452e0ef53e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 08af83899aee146499b7b8517f163618, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -49,4 +49,15 @@ public class PlayerHealth : MonoBehaviour
     {
         return currentHealth / maxHealth;
     }
+
+    public void Heal(float amount)
+    {
+        Debug.Log("Healed damage");
+        currentHealth += amount;
+
+        if(currentHealth > maxHealth)
+        {
+            currentHealth = maxHealth;
+        }
+    }
 }
