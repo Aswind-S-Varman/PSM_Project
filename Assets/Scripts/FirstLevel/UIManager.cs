@@ -45,7 +45,8 @@ private void Start()
     public void RestartLevel()
     {
         Debug.Log("Restart Level");
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene("EasyLevel");
         Time.timeScale = 1f;
     }
 
