@@ -7,15 +7,15 @@ public class SelectLevel : MonoBehaviour
 {
     public void EasyLevel()
     {
-        SceneManager.LoadScene("EasyLevel");
+        SceneManager.LoadScene("FirstLevel");
     }
     public void MediumLevel()
     {
-        SceneManager.LoadScene("MediumLevel");
+        SceneManager.LoadScene("SecondLevel");
     }
     public void HardLevel()
     {
-        SceneManager.LoadScene("HardLevel");
+        SceneManager.LoadScene("ThirdLevel");
     }
 
     public void BackButton()

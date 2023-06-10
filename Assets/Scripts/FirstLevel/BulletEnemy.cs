@@ -6,22 +6,16 @@ public class BulletEnemy : MonoBehaviour
 {
     public float life = 5;
     float damagePlayer = 3f;
-    //public GameObject explosionEffect; // particle effect to play when bullet hits the enemy bullet
-
     public AudioSource audioSource;
     public AudioClip hitSound;
-
     public AudioSource audioSource1;
     public AudioClip contactSound;
-
 
     private void Start()
     {
         audioSource = GetComponent<AudioSource>();
         audioSource1 = GetComponent<AudioSource>();
     }
-
-
     void Awake()
     {
         Destroy(gameObject, life);
@@ -47,7 +41,6 @@ public class BulletEnemy : MonoBehaviour
             AudioSource.PlayClipAtPoint(hitSound, transform.position);
             Destroy(collision.gameObject); // destroy the enemy bullet
             Debug.Log("Destroyed VIRUS BULLET");
-            //Instantiate(explosionEffect, collision.transform.position, Quaternion.identity); // create particle effect at the enemy bullet's position
             Destroy(gameObject); // destroy the player bullet
         }
     }

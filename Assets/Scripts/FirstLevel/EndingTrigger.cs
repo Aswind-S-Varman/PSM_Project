@@ -25,8 +25,9 @@ public class EndingTrigger : MonoBehaviour
 
     public void NextLevel()
     {
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
         Debug.Log("NextLevel");
+        Time.timeScale = 1f;
     }
 
     public void RestartLevel()

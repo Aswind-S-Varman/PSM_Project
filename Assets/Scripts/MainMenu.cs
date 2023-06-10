@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene("EasyLevel");
+        SceneManager.LoadScene("FirstLevel");
     }
 
     public void ChooseLevels()
