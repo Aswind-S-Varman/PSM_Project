@@ -10,7 +10,7 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI dialogueTxt;
     public Animator animator;
 
-    public float typingSpeed = 0.1f;
+    public float typingSpeed = 0.05f;
 
     private Queue <string> sentences;
 

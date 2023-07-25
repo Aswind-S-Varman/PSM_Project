@@ -30,6 +30,12 @@ public class EndingTrigger : MonoBehaviour
         Time.timeScale = 1f;
     }
 
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("StartMenu");
+        Time.timeScale = 1f;
+    }
+
     public void RestartLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
@@ -41,6 +47,12 @@ public class EndingTrigger : MonoBehaviour
     {
         Debug.Log("Quit Qame");
         Application.Quit();
+    }
+
+    public void EndCredits()
+    {
+        SceneManager.LoadScene("EndCredits");
+        Time.timeScale = 1f;
     }
 
 }
