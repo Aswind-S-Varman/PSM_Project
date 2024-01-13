@@ -34,4 +34,3 @@ This project is licensed under University Teknologi Malaysia (UTM).
 I would like to express my gratitude to everyone who contributed to the development of this project.
 
 Happy gaming and learning!
-```
